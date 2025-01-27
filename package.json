@@ -1,11 +1,12 @@
 {
-  "name": "nodegyakorlas",
+  "name": "cars",
   "version": "1.0.0",
   "main": "app.js",
   "type": "module",
   "scripts": {
     "start": "node app.js",
-    "dev": "nodemon app.js"
+    "dev": "nodemon app.js",
+    "swagger": "node ./util/swagger.js"
   },
   "keywords": [],
   "author": "",
@@ -15,7 +16,9 @@
     "cors": "^2.8.5",
     "express": "^4.21.2",
     "sequelize": "^6.37.5",
-    "sqlite3": "^5.1.7"
+    "sqlite3": "^5.1.7",
+    "swagger-autogen": "^2.23.7",
+    "swagger-ui-express": "^5.0.1"
   },
   "devDependencies": {
     "nodemon": "^3.1.9"
